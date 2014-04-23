@@ -3,6 +3,7 @@
  * Try to find the max number of words which have the same letters
  * 
  * e.g. the word "bat", "tab" has the same letter
+ * the words can be found: http://www-01.sil.org/linguistics/wordlists/english/wordlist/wordsEn.txt
  */
 
  #include <string>
@@ -79,13 +80,11 @@ int countFrequency(map<string, set<string> > &m) {
 
  int main(int argc, char const *argv[])
  {	
- 	ifstream inFile("words.txt");
+ 	ifstream inFile("wordsEn.txt");
  	map<string, set<string> > m;	
 
  	readFile(inFile, m);
 
  	cout << "the result is " << countFrequency(m) << endl;
-
  	return 0;
- 	
  }
