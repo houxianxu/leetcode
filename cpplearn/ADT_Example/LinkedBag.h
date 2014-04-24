@@ -1,5 +1,6 @@
 /* ADT bag: Link-based implementation 
- * @file LinkedBag */
+ * @file LinkedBag
+ * just for practice, not test */
 
 #include "Node.h"
 #include <vector>

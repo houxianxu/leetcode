@@ -1,3 +1,6 @@
+/* implement of LinkedBag class 
+ * @file LinkedBag.cpp
+ * just for practice, not test*/ 
 #include "LinkedBag.h"
 
 template<class ItemType>
